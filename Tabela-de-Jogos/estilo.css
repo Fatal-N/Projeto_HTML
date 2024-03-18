@@ -1,0 +1,140 @@
+.borda{
+    width: 28cm;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+body{
+
+    background-image: url(imagens/Mario-Computer-Backgrounds.png);
+}
+
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+th{
+    font-size: 24px;
+    font-family: GamePlayed;
+}
+
+/* aplicando fonte personalizada*/
+
+#skyrim{
+    background-color: rgb(14, 14, 29);
+    font-family: Balgruf-JRye7;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#hearthstone{
+    background-color: rgb(115, 46, 0);
+    font-size: 20px;
+    color: rgb(213, 249, 255);
+    font-family: hearthston;
+
+}
+#roblox{
+    background-color: rgb(153, 0, 0);
+    font-size: 20px;
+    color:rgb(255, 249, 251);
+    font-family: Roblox2017-v6dO;
+    
+}
+#arenaofvalor{
+    background-color: rgb(4, 52, 101);
+    font-size: 22px;
+    color: rgb(227, 235, 255);
+    font-family: arena;
+    
+}
+#marioworld{
+    background-color: rgb(34, 101, 26);
+    font-size: 20px;
+    color: rgb(255, 242, 254);
+font-family: MarioLuigi2;
+    
+}
+
+#honorofkings{
+    background-color: rgb(6, 6, 6);
+    font-size: 20px;
+    color: rgb(255, 255, 226);
+    font-family: honorof;
+}
+#habbo{
+    background-color: rgb(187, 78, 23);
+    font-size: 23px;
+    color: rgb(255, 235, 154);
+    font-family:HabboFont;
+}
+#gta{
+    background-color: rgb(118, 12, 116);
+    font-size: 22px;
+    color: rgb(255, 250, 228);
+    font-family:gtaa;
+}
+#vanquish{
+    background-color: rgb(13, 33, 100);
+    font-size: 20px;
+    color: rgb(232, 252, 255);
+    font-family:Vanquish;
+}
+#hogwarts{
+    background-color: rgb(26, 104, 82);
+    font-size: 20px;
+    color: rgb(247, 255, 229);
+    font-family:Hogwarts;
+}
+
+
+@font-face {
+    font-family: Balgruf-JRye7;
+    src: url(fontes/balgruf-font/Balgruf-JRye7.ttf);
+}
+@font-face {
+font-family: hearthston;
+src: url(fontes/hearthstone-font/hearthston.ttf);
+}
+@font-face {
+    font-family: Roblox2017-v6dO;
+    src: url(fontes/roblox-font/Roblox2017-v6dO.ttf);
+}
+@font-face {
+    font-family: GamePlayed;
+    src: url(fontes/game-played/GamePlayed.otf);
+}
+@font-face {
+    font-family: arena;
+    src: url(fontes/aov/arena.TTF);
+}
+@font-face {
+    font-family: MarioLuigi2;
+    src: url(fontes/mario_luigi_2/MarioLuigi2.ttf);
+}
+@font-face {
+    font-family: honorof;
+    src: url(fontes/honor/honorof.ttf);
+}
+@font-face {
+    font-family: HabboFont;
+    src: url(fontes/habbo/HabboFont.ttf);
+}
+@font-face {
+    font-family: gtaa;
+    src: url(fontes/pricedown/gtaa.otf);
+}
+@font-face {
+    font-family: Vanquish;
+    src: url(fontes/vonique_92/Vanquish.otf);
+}
+@font-face {
+    font-family: Hogwarts;
+    src: url(fontes/hogwarts/Hogwarts.ttf);
+}
